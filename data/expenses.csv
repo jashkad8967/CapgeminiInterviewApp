@@ -1,21 +1,20 @@
-Category,Amount,Date
-Food,45.50,2024-01-15
-Transport,25.00,2024-01-15
-Entertainment,60.00,2024-01-16
-Food,32.75,2024-01-17
-Transport,15.50,2024-01-18
-Shopping,120.00,2024-01-19
-Food,28.90,2024-01-20
-Entertainment,45.00,2024-01-21
-Transport,30.00,2024-01-22
-Food,55.25,2024-01-23
-Shopping,89.99,2024-01-24
-Food,42.00,2024-02-01
-Transport,20.00,2024-02-02
-Entertainment,75.00,2024-02-03
-Food,38.50,2024-02-04
-Shopping,150.00,2024-02-05
-Transport,18.75,2024-02-06
-Food,29.99,2024-02-07
-Entertainment,50.00,2024-02-08
-
+Category,Amount,Date,Description
+Food,45.50,2024-01-15,Lunch at Italian restaurant
+Transport,25.00,2024-01-15,Uber ride to office
+Entertainment,60.00,2024-01-16,Movie tickets and popcorn
+Food,32.75,2024-01-17,Grocery shopping
+Transport,15.50,2024-01-18,Bus pass weekly
+Shopping,120.00,2024-01-19,New shoes from mall
+Food,28.90,2024-01-20,Dinner takeout
+Entertainment,45.00,2024-01-21,Concert tickets
+Transport,30.00,2024-01-22,Gas for car
+Food,55.25,2024-01-23,Restaurant dinner with friends
+Shopping,89.99,2024-01-24,Kitchen appliances
+Rent,1000.00,2024-02-01,Rent
+Transport,20.00,2024-02-02,Metro card refill
+Entertainment,75.00,2024-02-03,Theater show tickets
+Food,38.50,2024-02-04,Lunch meeting
+Shopping,150.00,2024-02-05,Clothing purchase
+Transport,18.75,2024-02-06,Taxi to airport
+Food,29.99,2024-02-07,Coffee and breakfast
+Entertainment,50.00,2024-02-08,Bowling night

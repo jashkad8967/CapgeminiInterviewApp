@@ -69,6 +69,7 @@ public class ExpenseServer {
         String category = params.getOrDefault("category", "").trim();
         String amountStr = params.getOrDefault("amount", "").trim();
         String date = params.getOrDefault("date", "").trim();
+        String description = params.getOrDefault("description", "").trim();
 
         String response;
         int statusCode;
@@ -83,7 +84,7 @@ public class ExpenseServer {
                     response = "{\"success\": false, \"message\": \"Amount must be positive\"}";
                     statusCode = 400;
                 } else {
-                    expenses.add(new Expense(category, amount, date));
+                    expenses.add(new Expense(category, amount, date, description));
                     categories.add(category);
                     response = "{\"success\": true, \"message\": \"Expense added successfully\"}";
                     statusCode = 200;

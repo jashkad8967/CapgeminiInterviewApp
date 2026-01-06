@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class JsonHelper {
     
     public static String escapeJson(String str) {
@@ -56,6 +58,7 @@ public class JsonHelper {
             json.append("    \"category\": \"").append(escapeJson(expense.getCategory())).append("\",\n");
             json.append("    \"amount\": ").append(expense.getAmount()).append(",\n");
             json.append("    \"date\": \"").append(escapeJson(expense.getDate())).append("\"\n");
+            json.append("    \"description\": \"").append(escapeJson(expense.getDescription())).append("\"\n");
             json.append("  }");
             first = false;
         }

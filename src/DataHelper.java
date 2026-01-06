@@ -19,7 +19,8 @@ public class DataHelper {
                         String category = parts[0].trim();
                         double amount = Double.parseDouble(parts[1].trim());
                         String date = parts[2].trim();
-                        expenses.add(new Expense(category, amount, date));
+                        String description = parts.length >= 4 ? parts[3].trim() : "";
+                        expenses.add(new Expense(category, amount, date, description));
                         categories.add(category);
                     }
                 }
